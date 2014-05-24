@@ -37,10 +37,4 @@ cacheSolve <- function(x, ...) {
         
 }
 
-y <- makeCacheMatrix()
-cacheSolve(y)
-y <- matrix(rnorm(9),3,3)
-x <- makeCacheMatrix(y)
-cacheSolve(x)
-z <- solve(y)
-z
+
